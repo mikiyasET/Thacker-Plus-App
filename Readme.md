@@ -6,13 +6,12 @@ The Android app is Written in dart (Flutter) and the source code for that is ðŸ‘
 
 ### What Is It?
 
-THacker is a Pushing platform that can trick and get an account even if its secured with two step verification system 
+THacker is a Phishing platform that can trick and get an account even if it's secured with two step verification. 
 **Version 1.0**
 
 ## How it works
 
-	It works with an android device so you have the victim must install the android app or the app can be installed by you in his device the app will look just like normal telegram app so the victim will think its the normal telegram app he usually uses and when he open the app he will see the default telegram login page so Thacker comes here the app will communicate to Thacker not telegram server so all informations send by the user will be send to Thacker which is you   
-
+	It works with an android device so the victim must install the android app or the app can be installed by you in the device the app will look just like normal telegram app so the victim will think it's the normal telegram app he usually uses and when he open the app he will see the default telegram login page and Thacker comes here the app will communicate to Thacker not telegram server so all informations send by the user will be send to Thacker which is you   
 
 # API Reference
 
