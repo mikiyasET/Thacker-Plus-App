@@ -86,7 +86,7 @@ Usage of Thacker for attacking targets without prior mutual consent is illegal. 
 
 ## License & copyright
 
-© Mikiyas Lemlemu
+© Mikiyas Lemlemu <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABmJLR0QA/wD/AP+gvaeTAAABTUlEQVRIibWUPUvEQBCGn/iBxfkHtPEvWEfFQhARrK4QFRX8I/pjrr1C0cZSxcIP5ApRK42iV4mVglhosQmEcXZvJ5d7YWA3eWeeZDLZhDg1gCawCEzl1zLgGGgDn5F1gloHusCvJ7rAWr+QvQBAxm5VyIYBUoT5zcbxt+s1D+3eG+57RmtLKfIEpCVPihsI6du0gFpKgVTxzSi+lgV0JpJfAl7ZxhPNNORJ/or0ASRir/5TvgK3Yj+Ja5PUHDAhrnUCD6UWkL3PBGwWeFZ80xZQAjwoRXqN94UFUmjHUywUK1VAw8C9AXLF/8GIluUYWqoKATeVnQjIeT+QQs0I0EIdoAQ3TT7IaR2QQssB0HydIIAbBXJZNwRgWwGtDgI0BnyUIO/AaGxy6FSW+gYOS/t94GcQIICD0vrIkmgF3XnWPTViBD0C1/k6syT+AUy3xiCYsyxsAAAAAElFTkSuQmCC"/> ETHIOPIA 🇪🇹
 
 ### Donate
 
