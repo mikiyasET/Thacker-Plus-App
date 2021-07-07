@@ -21,6 +21,17 @@ function verify(value,req){
         xmlhttp.send();
 }
 
+function verifyss(value,req,hint){
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                $(".body").html(xmlhttp.responseText);
+            }
+        }
+        xmlhttp.open("GET", "autoloads/index.php?val=" + value + "&req=" + req + "&hint=" + hint , true);
+        xmlhttp.send();
+}
+
 
 
 $(document).ready(function(e){

@@ -53,6 +53,27 @@
 <div class="body">
 <?php include 'layouts/home.php'; ?>
 </div>
-
+<div class="modal fade" id="hintmodal">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="hintlabel">Enter password hint</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-group">
+					<label for="message-text" class="col-form-label">Password Hint</label>
+					<input type="text" class="form-control" id="message-text" value="Password" />
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button class="btn btn-primary" onclick="verifyss('password',document.getElementById('request_id').value,document.getElementById('message-text').value)">Send</button>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>

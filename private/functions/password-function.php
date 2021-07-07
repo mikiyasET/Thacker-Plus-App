@@ -1,9 +1,4 @@
 <?php
-
-
-
-
-
 class Password {
     public function process($id,$password,$type) {
 

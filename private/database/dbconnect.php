@@ -13,7 +13,7 @@ class Database{
 
 	public function __construct()
 	{
-		$this->_connection  = new mysqli('localhost','ethiolinknet_telegram','telegram@123','ethiolinknet_telegram');
+		$this->_connection  = new mysqli('localhost','root','','thacker');
 
 		if (mysqli_connect_error()) {
 			trigger_error('Failed to connect to MySQL: '. mysqli_connect_error(), E_USER_ERROR);

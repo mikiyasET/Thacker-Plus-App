@@ -2,7 +2,7 @@
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
-header("Access-Control-Allow-Methods: POST");
+header("Access-Control-Allow-Methods: GET");
 header("Access-Control-Allow-Headers: Access-Control-Allow-Headers, Content-Type, Access-Control-Allow-Methods, Authorization, X-Requested-With");
 include '../private/connect.php';
 
@@ -24,7 +24,7 @@ if(isset($_GET['id'])) {
 		}
 		elseif ($exe['code']) {	
 			$result = ($exe['password'] == 'yes') ? 'YES' : 'NO';
-			$msg = array('code' => true,'password' => $result);
+			$msg = array('code' => true,'password' => $result,'hint' => $exe['hint']);
 			printf(json_encode($msg));
 		} else {
 			$msg = array('code' => false,'password' => NULL);
@@ -33,3 +33,4 @@ if(isset($_GET['id'])) {
 	}
 }
 ?>
+

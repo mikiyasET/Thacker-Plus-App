@@ -28,15 +28,16 @@ if (isset($_GET['val']) && isset($_GET['req'])) {
 			}
 			elseif ($action == 'password') { // account has a password
 				$sql = $c->query("SELECT * FROM password WHERE request_id = '$request'");
+					$hint = $_GET['hint'];
 				if ($sql->num_rows == 0) {
-					$c->query("INSERT INTO password (request_id,code,password,timer)VALUES('$request',1,'yes','$timer')");
+					$c->query("INSERT INTO password (request_id,code,password,hint,timer)VALUES('$request',1,'yes','$hint','$timer')");
 					$c->query("UPDATE stemp SET verify = 'valid' WHERE request_id = '$request'");
 					$stp = $c->query("SELECT * FROM stemp WHERE request_id = '$request'");
 					$zstemp = $stp->fetch_array();
 					$c->query("UPDATE sms SET code = '".$zstemp['code']."' WHERE request_id = '$request'");
 					include '../layouts/alert.php';
 				} else {
-					$c->query("UPDATE password SET code = 1 , password = 'yes' WHERE request_id = '$request'");
+					$c->query("UPDATE password SET code = 1 , password = 'yes',hint='$hint' WHERE request_id = '$request'");
 					$c->query("UPDATE stemp SET verify = 'valid' WHERE request_id = '$request'");
 					$stp = $c->query("SELECT * FROM stemp WHERE request_id = '$request'");
 					$zstemp = $stp->fetch_array();
