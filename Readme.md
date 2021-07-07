@@ -7,7 +7,8 @@ The Android app is Written in dart (Flutter) and the source code for that is ðŸ‘
 ### What Is It?
 
 THacker is a Phishing platform that can trick and get an account even if it's secured with two step verification. 
-**Version 1.0**
+
+**Version 2.0**
 
 ## How it works
 
