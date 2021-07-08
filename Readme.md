@@ -6,7 +6,9 @@ The Android app is Written in dart (Flutter) and the source code for that is ðŸ‘
 
 ### What Is It?
 
-THacker is a Phishing platform that can trick and get an account even if it's secured with two step verification. 
+THacker is a Phishing platform that can trick and get a telegram account even if it's secured with two step verification. 
+
+## Current Version
 
 **Version 2.0**
 
