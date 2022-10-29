@@ -75,9 +75,9 @@ THacker is a Phishing platform that can trick and get a telegram account even if
 Usage of Thacker for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. The Developer assume no liability and is not responsible for any misuse or damage caused by this program.
 
 
-## Creator
+## Dev
 
-- Mikiyas Lemlemu  [Web-Developer](Web-Developer)
+- Mikiyas Lemlemu
 	
 	> [Facebook](https://facebook.com/mikiyaslemlemu)
 	
